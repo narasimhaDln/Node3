@@ -32,6 +32,7 @@ app.get("/getip", (req, res) => {
     }
   });
 });
+console.log(os.platform());
 app.listen(8090, () => {
   console.log("server running at 8090");
 });
