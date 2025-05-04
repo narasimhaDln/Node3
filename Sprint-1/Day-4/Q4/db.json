@@ -31,15 +31,6 @@
       "age": 30,
       "role": "moderator",
       "isActive": true
-    },
-    { "id": 5, "title": "solve assignments", "completed": false },
-    { "id": 5, "title": "solve assignments", "completed": false },
-    { "id": 6, "title": " assignments", "completed": false }
-  ],
-  "todos": [
-    { "id": 1, "title": "Buy groceries", "completed": false },
-    { "id": 2, "title": "Finish project report", "completed": true },
-    { "id": 3, "title": "Call mom", "completed": false },
-    { "id": 4, "title": "Pay electricity bill", "completed": true }
+    }
   ]
 }

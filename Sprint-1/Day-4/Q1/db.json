@@ -1,0 +1,25 @@
+{
+  "contactUs": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "message": "I would like to know more about your services.",
+      "submittedAt": "2025-05-04T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "message": "How can I reset my password?",
+      "submittedAt": "2025-05-04T11:15:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "email": "charlie.brown@example.com",
+      "message": "Do you offer support for international clients?",
+      "submittedAt": "2025-05-04T12:30:00Z"
+    }
+  ]
+}
