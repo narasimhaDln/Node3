@@ -23,6 +23,7 @@ router.get("/getIpDetails", (req, res) => {
     res.json({ website, ip: address });
   });
 });
+
 router.get("/getSystemInfo", (req, res) => {
   const info = {
     platform: os.platform(),

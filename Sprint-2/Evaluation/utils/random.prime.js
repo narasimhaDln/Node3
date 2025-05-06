@@ -9,6 +9,7 @@ function isPrime(num) {
   }
   return true;
 }
+///math.random will give the 0.0 to 1.0 random values
 function getRandomPrime(max) {
   let primes = [];
   for (let i = 2; i <= max; i++) {
@@ -17,7 +18,7 @@ function getRandomPrime(max) {
     }
   }
   if (primes.length === 0) return null;
-  const randomIndex = Math.floor(Math.random() * primes.length);
-  return primes[randomIndex];
+  let randomPrime = Math.floor(Math.random() * primes.length);
+  return primes[randomPrime];
 }
 module.exports = getRandomPrime;

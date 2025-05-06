@@ -1,0 +1,19 @@
+1.Retrieve all tasks with the status "pending".
+
+db.tasks.find({status:"pending"})
+
+2.Update the status of the task with task_id: 2 to "completed".
+
+db.tasks.updateOne({task_id:2},{$set:{status:"completed"}})
+
+3.Delete the task with task_id: 5.
+
+db.tasks.deleteOne({task_id:5})
+
+4.Retrieve the task with the task_name: "Buy groceries".
+
+db.tasks.find({task_name:"Buy groceries"})
+
+5.Update the description of the task with task_id: 4 to "Call and schedule a dental appointment at 2 PM.".
+
+db.tasks.updateOne({task_id:4},{$set:{description:"Call and schedule a dental appointment at 2 PM"}})

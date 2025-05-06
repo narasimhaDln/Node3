@@ -1,0 +1,19 @@
+1.retrieve the all tasks
+
+db.TodoList.find()
+
+2.Retrieve tasks based on their status (e.g., fetch only pending tasks).
+
+
+db.TodoList.find({status:"pending"})
+
+
+3.Retrieve tasks that have a due date in the next 7 days.
+
+
+db.tasks.find({
+  due_date: {
+    $gte: new Date(), 
+    $lte: new Date(new Date().setDate(new Date().getDate() + 7))
+  }
+});

@@ -1,0 +1,41 @@
+
+1.retrieve the all fields.
+
+db.orders.find()
+
+2.Insert the many fields
+db.orders.insertMany([
+  { "orderId": 2,
+  "customerName": "Alice",
+  "items": [
+    "laptop",
+    "keyboard",
+    "mouse"
+  ],
+  "totalAmount": 2500,
+  "orderStatus": "shipped"
+},
+  {
+  "orderId": 3,
+  "customerName": "Veeresh",
+  "items": [
+    "shoes",
+    "pen",
+    "book"
+  ],
+  "totalAmpunt": 10000,
+  "orderStatus": "delivered"
+}
+
+])
+
+
+3.Retrieve orders with a specific status (e.g., pending orders).
+db.orders.find({orderStatus:"pending"})
+
+
+
+
+4.Retrieve orders with a total amount greater than Rs. 1000.
+
+db.orders.find({totalAmount:{$gt:1000}})

@@ -1,0 +1,57 @@
+
+Data;
+
+[{
+  "_id": 1,
+  "bookId": 1,
+  "title": "The great gastsby",
+  "author": "Alice",
+  "genre": "fiction",
+  "available": true
+},
+{
+  "_id": 2,
+  "bookId": 2,
+  "title": "Becoming",
+  "author": "John",
+  "genre": "non-fiction",
+  "available": false
+},
+{
+  "_id": 3,
+  "bookId": 3,
+  "title": "1984",
+  "author": "George Orwell",
+  "genre": "fiction",
+  "available": true
+},
+{
+  "_id": 4,
+  "bookId": 4,
+  "title": "The Linon Of King",
+  "author": "Rabot",
+  "genre": "fiction",
+  "availabe": false
+},
+{
+  "_id": 5,
+  "bookid": 5,
+  "title": "Danger",
+  "author": "kamal Sing",
+  "genre": "thriller",
+  "available": true
+}]
+
+
+
+1.Retrieve the all books
+
+db.books.find();
+
+2.Retrieve books based on their genre (e.g., all fiction books).
+
+db.books.find({genre:"fiction"})
+
+3.Retrieve only available books.
+
+db.books.find({available:true})
