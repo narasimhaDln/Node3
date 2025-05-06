@@ -1,0 +1,4 @@
+Tue May 06 2025-GET /system/gettipdetails?website=masaischool.com
+Tue May 06 2025-GET /system/gettipdetails?website=masaischool.com
+Tue May 06 2025-GET /system//getSystemInfo
+Tue May 06 2025-GET /system//getSystemInfo
