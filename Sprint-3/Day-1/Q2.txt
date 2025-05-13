@@ -1,0 +1,33 @@
+1.Find the total salary paid in each department.
+db.employees.aggregate([{$group:{_id:"$departmentId",totalSalaryPaid:{$sum:"$salary"}}},
+{$lookup:{
+from:"departments",
+localField:"_id",
+foreignField:"_id",
+as:"Employee Details"
+}}
+])
+
+2.Retrieve employee details along with their department information.
+db.employees.aggregate([{$lookup:{
+from:"departments",
+localField:"departmentId",
+foreignField:"_id",
+as:"Department information"
+}}])
+
+3.Find employees who earn more than Rs. 60,000.
+
+db.employees.aggregate([{$match:{amount:{$gt:60000}}}])
+
+4.Calculate the average salary for each department.
+db.employees.aggregate([{$group:{_id:"$departmentId",averageSalary:{$sum:"$salary"}}}])
+
+5.
+Retrieve all employees along with their respective department details.
+db.employees.aggregate([{$lookup:{
+from:"departments",
+localField:"departmentId",
+foreignField:"_id",
+as:"Department Information"
+}}])
