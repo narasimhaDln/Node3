@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <script>
+      const socket = io("http://localhost:5000");
+
+      socket.emit("joinRoom", { username: "Alice", room: "room1" });
+
+      socket.emit("message", "Hello everyone!");
+
+      socket.emit("privateMessage", {
+        recipientId: "target-socket-id",
+        message: "Hi privately!",
+      });
+      socket.on("message", (msg) => {
+        console.log("Public:", msg);
+      });
+
+      socket.on("privateMessage", ({ from, message }) => {
+        console.log(`Private from ${from}: ${message}`);
+      });
+
+      socket.on("userNotification", (note) => {
+        console.log(note);
+      });
+    </script>
+  </body>
+</html>

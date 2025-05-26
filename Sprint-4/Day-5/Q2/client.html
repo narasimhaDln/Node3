@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>simple chat app</h2>
+    <div id="messages"></div>
+    <p id="typingIndicator" style="color: gray"></p>
+    <input
+      id="msg"
+      placeholder="type a message"
+      oninput="typing()"
+      onblur="stopTyping()"
+    />
+    <button onclick="send()">Send</button>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <script>
+      const socket = io("http://localhost:7080");
+      socket.on("message", (msg) => {
+        document.getElementById("messages").innerHTML += `<p>${msg}</p>`;
+      });
+      socket.on("typing", (text) => {
+        document.getElementById("typingIndicator").innerText = text;
+      });
+      function send() {
+        let input = document.getElementById("msg");
+        socket.emit("message", input.value);
+        input.value = "";
+        stopTyping();
+      }
+      function typing() {
+        socket.emit("typing");
+      }
+      function stopTyping() {
+        socket.emit("stopTyping");
+      }
+    </script>
+  </body>
+</html>

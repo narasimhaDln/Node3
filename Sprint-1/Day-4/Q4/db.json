@@ -5,32 +5,13 @@
       "name": "Alice Johnson",
       "email": "alice.johnson@example.com",
       "age": 28,
-      "role": "admin",
+      "role": "user",
       "isActive": true
     },
     {
       "id": 2,
-      "name": "Bob Smith",
-      "email": "bob.smith@example.com",
-      "age": 34,
-      "role": "user",
-      "isActive": true
-    },
-    {
-      "id": 3,
-      "name": "Charlie Brown",
-      "email": "charlie.brown@example.com",
-      "age": 22,
-      "role": "user",
-      "isActive": false
-    },
-    {
-      "id": 4,
-      "name": "Dana White",
-      "email": "dana.white@example.com",
-      "age": 30,
-      "role": "moderator",
-      "isActive": true
+      "name": "ram",
+      "age": 22
     }
   ]
 }
