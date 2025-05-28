@@ -1,3 +1,4 @@
+const { default: mongoose } = require("mongoose");
 const JobModel = require("../models/job.model");
 const client = require("../utils/redisClient");
 
@@ -12,15 +13,28 @@ const createJob = async (req, res) => {
     res.status(500).json({ message: "internal server error" });
   }
 };
-const updateJob = async (req, res) => {
+const allJobs = async (req, res) => {
   try {
-    const job = await JobModel.findByIdAndUpdate(
-      { _id: req.params.id, createdBy: req.user.id },
-      req.body,
-      { new: true }
-    );
+    const jobs = await JobModel.find();
+    res.json(jobs);
+  } catch (error) {
+    console.log(error.message);
+    res.status(500).json({ message: "internal server error" });
+  }
+};
+const updateJob = async (req, res) => {
+  const { id } = req.params;
+  if (!mongoose.Types.ObjectId.isValid(id)) {
+    return res.status(400).json({ message: "invalid job id" });
+  }
+  try {
+    const job = await JobModel.findByIdAndUpdate(id, req.body, { new: true });
+    if (!job) {
+      return res.status(404).json({ message: "job not found" });
+    }
     await client.flushall();
-    res.json({ message: "job updated", job });
+
+    res.status(200).json({ message: "job updated", job });
   } catch (error) {
     console.log(error.message);
     res.status(500).json({ message: "internal server error" });
@@ -33,10 +47,10 @@ const deleteJob = async (req, res) => {
       createdBy: req.user.id,
     });
     await client.flushall();
-    res.status(200).json({ message: "job deleted" });
+    res.status(200).json({ message: "job deleted", job });
   } catch (error) {
     console.log(error.message);
     res.status(500).json({ message: "internal server error" });
   }
 };
-module.exports = { createJob, updateJob, deleteJob };
+module.exports = { createJob, updateJob, deleteJob, allJobs };
