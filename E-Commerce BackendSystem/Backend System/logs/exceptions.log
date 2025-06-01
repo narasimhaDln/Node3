@@ -1,0 +1,84 @@
+2025-05-26 20:23:24 error: uncaughtException: Cannot find module './routes/user.routes'
+Require stack:
+- /home/project/src/server.js
+Error: Cannot find module './routes/user.routes'
+Require stack:
+- /home/project/src/server.js
+    at Module._resolveFilename (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.97a3df4f.js:148:14795)
+    at Module._load (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.97a3df4f.js:148:12287)
+    at Module.require (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.97a3df4f.js:148:15469)
+    at require3 (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.97a3df4f.js:166:2696)
+    at _0x2df032 (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/blitz.55edb8f4.js:31:872104)
+    at Object.eval (file:///home/project/src/server.js#cjs:16:20)
+    at Object._0x3ea3b3 (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/blitz.55edb8f4.js:31:872225)
+    at Module._compile (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.97a3df4f.js:148:16006)
+    at Module._extensions..js (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.97a3df4f.js:148:16726)
+    at Module.load (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.97a3df4f.js:148:15281)
+2025-05-28 19:23:29 error: uncaughtException: Cannot find module './routes/user.routes'
+Require stack:
+- /home/project/src/server.js
+Error: Cannot find module './routes/user.routes'
+Require stack:
+- /home/project/src/server.js
+    at Module._resolveFilename (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.97a3df4f.js:148:14795)
+    at Module._load (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.97a3df4f.js:148:12287)
+    at Module.require (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.97a3df4f.js:148:15469)
+    at require3 (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.97a3df4f.js:166:2696)
+    at _0x2df032 (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/blitz.55edb8f4.js:31:872104)
+    at Object.eval (file:///home/project/src/server.js#cjs:16:20)
+    at Object._0x3ea3b3 (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/blitz.55edb8f4.js:31:872225)
+    at Module._compile (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.97a3df4f.js:148:16006)
+    at Module._extensions..js (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.97a3df4f.js:148:16726)
+    at Module.load (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.97a3df4f.js:148:15281)
+2025-05-29 08:39:31 error: uncaughtException: Cannot find module './routes/user.routes'
+Require stack:
+- /home/project/src/server.js
+Error: Cannot find module './routes/user.routes'
+Require stack:
+- /home/project/src/server.js
+    at Module._resolveFilename (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.97a3df4f.js:148:14795)
+    at Module._load (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.97a3df4f.js:148:12287)
+    at Module.require (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.97a3df4f.js:148:15469)
+    at require3 (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.97a3df4f.js:166:2696)
+    at _0x2df032 (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/blitz.55edb8f4.js:31:872104)
+    at Object.eval (file:///home/project/src/server.js#cjs:16:20)
+    at Object._0x3ea3b3 (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/blitz.55edb8f4.js:31:872225)
+    at Module._compile (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.97a3df4f.js:148:16006)
+    at Module._extensions..js (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.97a3df4f.js:148:16726)
+    at Module.load (https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-credentialless-staticblitz.com/builtins.97a3df4f.js:148:15281)
+2025-05-29 19:47:24 error: uncaughtException: Not authorized, no token
+Error: Not authorized, no token
+    at protect (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\src\middleware\auth.middleware.js:35:11)
+    at Layer.handle [as handle_request] (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\index.js:47:12)
+2025-05-29 19:47:47 error: uncaughtException: Not authorized, no token
+Error: Not authorized, no token
+    at protect (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\src\middleware\auth.middleware.js:35:11)
+    at Layer.handle [as handle_request] (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\index.js:47:12)
+2025-05-29 19:53:48 error: uncaughtException: Not authorized, no token
+Error: Not authorized, no token
+    at protect (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\src\middleware\auth.middleware.js:35:11)
+    at Layer.handle [as handle_request] (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\veere\Desktop\DLN Studies\Backand\constructiveWeekProject\project-bolt-sb1-mhzkc2aw (1)\project\node_modules\express\lib\router\index.js:47:12)
