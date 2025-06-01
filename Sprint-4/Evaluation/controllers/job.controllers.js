@@ -24,9 +24,7 @@ const allJobs = async (req, res) => {
 };
 const updateJob = async (req, res) => {
   const { id } = req.params;
-  if (!mongoose.Types.ObjectId.isValid(id)) {
-    return res.status(400).json({ message: "invalid job id" });
-  }
+
   try {
     const job = await JobModel.findByIdAndUpdate(id, req.body, { new: true });
     if (!job) {

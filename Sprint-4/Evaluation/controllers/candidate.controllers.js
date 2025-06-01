@@ -24,3 +24,4 @@ const getMatchingJobs = async (req, res) => {
     res.status(500).json({ message: "internal server error" });
   }
 };
+module.exports=getMatchingJobs
